@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  max-width: 350px;
+  background-color: #fff;
+  margin: 1rem auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px 2px hsla(223, 47%, 23%, 0.2);
+}
+
+.container > img {
+  width: 100%;
+}
+
+.content {
+  padding: 2rem 2.4rem;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.content > P {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-top: 0.8rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem;
+  margin-top: 0.8rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+}
+.plan img {
+  margin-right: 0.6rem;
+}
+
+.price {
+  font-size: 0.8rem;
+}
+.price p:first-child {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.price p:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+button {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-weight: 700;
+}
+
+#payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  margin-top: 1rem;
+  box-shadow: 0 10px 20px 5px hsla(223, 47%, 23%, 0.2);
+}
+#payment-btn:hover {
+  opacity: 0.8;
+}
+
+#cancel-btn {
+  opacity: 0.6;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+#cancel-btn:hover {
+  opacity: 1;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
